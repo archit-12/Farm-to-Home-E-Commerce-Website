@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Great Indian Farms</title>
+    <link rel = "icon" href =  "images/icon.png" type = "image/x-icon">
+    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  
+  <body>
+    
+    <div class="header">
+      <div class="container">
+        <div class="logo"><img src="images/agrilogo.png" width="180" height="180"/></div>
+        <div class="navbar">
+    <!-----------------------Navigation Bar------------------------>
+          <nav>
+            <ul>
+              
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/product.html">Crops</a></li>
+              <li><a href="https://enam.gov.in/web/all_news_desc">News</a></li>
+              <li><a href="#about">About</a></li>
+
+            </ul>
+          </nav>
+          
+        </div>
+        <div class="row">
+          
+          <div class="col-2">
+            <h1><a href="/signup.html">Register</a> and Get Farm Ready!</h1>
+            <a href="#imp" class="btn">Farming Options &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/image1.png" width="600" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------Major Crop Categories---------------------------->
+
+    <div class="categories" id="crops">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <a href="#pulses"><img src="images/pulses.jpg" /></a>
+            <h6>PULSES</h6>
+          </div>
+          <div class="col-3">
+            <a href="#grains"><img src="images/grains.jpg" /></a>
+            <h6>GRAINS</h6>
+          </div>
+          <div class="col-3">
+            <a href="#vegetables"><img src="images/vegetables.jpg" /></a>
+            <h6>VEGETABLES</h6>
+          </div>
+          <div class="col-3">
+            <a href="#fruits"><img src="images/fruits.jpg" /></a>
+            <h6>FRUITS</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------Available Stock---------------------------------------->
+
+    <div class="small-container">
+      <h2 class="title" id="pulses">AVALAIBLE PULSES STOCK</h2>
+      <div class="row">
+        <div class="col-4">
+            <a href="/product.html"><img src="images/arhar.jpg"></a>
+          <h4>Arhar Dal</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 55.00</p>
+          <p>Quantity: 25kg </p>
+          <p>Place: Bangalore</p>
+        </div>
+        <div class="col-4">
+          <form action="/product-detail2" method="GET">
+            <a href="/product.html"><img src="images/chickpeas.jpg"></a>
+          <h4>Chickpeas</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 65.00</p>
+          <p>Quantity: 50kg </p>
+          <p>Place: Punjab</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/moong.jpg"></a>
+          <h4>Moong Dal</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 70.00</p>
+          <p>Quantity: 30kg </p>
+          <p>Place: Tumkur</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/beans.jpg"></a>
+          <h4>Kidney Beans</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 60.00</p>
+          <p>Quantity: 40kg </p>
+          <p>Place: Pune</p>
+        </div>
+      </div>
+      <h2 class="title" id="grains">AVAILABLE GRAINS STOCK</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="/product.html"><img src="images/wheat.jpg"></a>
+          <h4>Wheat</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 10.00</p>
+          <p>Quantity: 100kg </p>
+          <p>Place: Kanpur</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/rice.jpeg"></a>
+          <h4>Rice</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 20.00</p>
+          <p>Quantity: 150kg </p>
+          <p>Place: Hyderabad</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/jowar.jpg"></a>
+          <h4>Jowar</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 30.00</p>
+          <p>Quantity: 60kg </p>
+          <p>Place: Bangalore</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/corn.jpg"></a>
+          <h4>Corn</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 50.00</p>
+          <p>Quantity: 30kg </p>
+          <p>Place: Nagpur</p>
+        </div>
+        <h2 class="title" id="vegetables">AVAILABLE VEGETABLES STOCK</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="/product.html"><img src="images/potato.jpg"></a>
+          <h4>Potato</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 30.00</p>
+          <p>Quantity: 100kg </p>
+          <p>Place: Amritsar</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/cauli.jpg"></a>
+          <h4>Cauliflower</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 100.00</p>
+          <p>Quantity: 40kg </p>
+          <p>Place: Belagavi</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/tomato.jpg"></a>
+          <h4>Tomato</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 30.00</p>
+          <p>Quantity: 80kg </p>
+          <p>Place: Delhi</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/onion.jpg"></a>
+          <h4>Onion</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 40.00</p>
+          <p>Quantity: 120kg </p>
+          <p>Place: Mumbai</p>
+        </div>
+        <h2 class="title" id="fruits">AVAILABLE FRUITS STOCK</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="/product.html"><img src="images/apple.jpg"></a>
+          <h4>Apples</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 50.00</p>
+          <p>Quantity: 60kg </p>
+          <p>Place: Jammu</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/banana.jpg"></a>
+          <h4>Bananas</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 20.00</p>
+          <p>Quantity: 25kg </p>
+          <p>Place: Bangalore</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/orange.jpg"></a>
+          <h4>Oranges</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Price: Rs 30.00</p>
+          <p>Quantity: 40kg </p>
+          <p>Place: Nagpur</p>
+        </div>
+        <div class="col-4">
+          <a href="/product.html"><img src="images/grape.jpeg"></a>
+          <h4>Grapes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Price: Rs 40.00</p>
+          <p>Quantity: 20kg </p>
+          <p>Place: Patna</p>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------ABOUT US------------------------------------>
+    <hr width=1100px>
+    <div class="owner">
+      <div class="small-container" id="about">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Farmers need fair prices for their crops and that is easily possible if online markets are opened for them.
+              Competition will increase fair business and price.
+            </p>
+            <img src="images/owner1.png" />
+            <h3>Tejasva Singh</h3>
+          </div>
+          <div class="col-3">
+            <h1>ABOUT US</h1>
+            <p>We aim to provide good online agrimarkets where farmers could get good prices for their crops
+              and customers/wholesalers can get good deals without middlemen</p>
+            <hr width=240px>
+              <p>CONTACT US AT thegreatindianfarms@gmail.com</p>
+            <img src="images/agrilogo.png" width=150px height=150px />
+            
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Middlemen take margins more than the hardwork of a farmer. Suicides of farmers need to stop. Prices need 
+              to get more stable. </p>
+
+            <img src="images/owner2.png" />
+            <h3>Ujjwal Kumar</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------MORE FARMING OPTIONS----------------------------------->
+    <hr width=1100px>
+    <div class="imp" id="imp">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <a href="images/map.png"><img src="images/inmap.png" /></a>
+          </div>
+          <div class="col-5">
+            <a href="https://mausam.imd.gov.in"><img src="images/weather.jpg" /></a>
+          </div>
+          <div class="col-5">
+            <a href="https://www.india.gov.in/topics/agriculture/organic-farming"><img src="images/farm.jpg" /></a>
+          </div>
+          <div class="col-5">
+            <a href="https://sbi.co.in/web/agri-rural/agriculture-banking/crop-loan"><img src="images/loan.png" /></a>
+          </div>
+          <div class="col-5">
+            <a href="http://agricoop.gov.in/ministry-major-schemes/online-pesticide-registration"><img src="images/pest.jpg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------FOOTER------------------------------------>
+    <div class="footer">
+      <div class="navbar">
+        <nav>
+          
+            <h5>Copyrights Reserved 2020</h5>
+            <h5>The Great Indian Farms</h5>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
